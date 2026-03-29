@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up — JewelTrak</title>
+  <meta name="description" content="Start your free trial of JewelTrak. No credit card required.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar scrolled">
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-logo">Jewel<span>Trak</span></a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="about.html">About</a>
+        <a href="signup.html">Sign Up</a>
+        <a href="https://cloud.jeweltrak.com" class="nav-login" target="_blank">Client Login &rarr;</a>
+      </div>
+      <button class="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu">
+    <button class="mobile-close" aria-label="Close menu">&times;</button>
+    <a href="index.html">Home</a>
+    <a href="pricing.html">Pricing</a>
+    <a href="about.html">About</a>
+    <a href="signup.html">Sign Up</a>
+    <a href="https://cloud.jeweltrak.com" target="_blank">Client Login</a>
+  </div>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="container">
+      <span class="section-label">Get Started</span>
+      <h1>Start Your Free Trial</h1>
+      <p>No credit card required. Get full access to JewelTrak and see why dealers and retailers trust us with their business.</p>
+    </div>
+  </section>
+
+  <!-- Signup Form -->
+  <section class="signup-section">
+    <div class="container">
+      <div class="signup-grid">
+
+        <div class="signup-info">
+          <h2>Why JewelTrak?</h2>
+          <p>Join jewelry professionals who have simplified their operations with one powerful platform.</p>
+
+          <div class="signup-benefits">
+            <div class="signup-benefit">
+              <div class="signup-benefit-icon">&#9889;</div>
+              <div>
+                <h4>Up &amp; Running in Minutes</h4>
+                <p>No complex setup. Import your inventory and start working right away.</p>
+              </div>
+            </div>
+            <div class="signup-benefit">
+              <div class="signup-benefit-icon">&#127891;</div>
+              <div>
+                <h4>Free Onboarding Support</h4>
+                <p>Our team will help you get set up and answer any questions along the way.</p>
+              </div>
+            </div>
+            <div class="signup-benefit">
+              <div class="signup-benefit-icon">&#128274;</div>
+              <div>
+                <h4>Your Data Is Safe</h4>
+                <p>256-bit SSL encryption and daily backups keep your information secure.</p>
+              </div>
+            </div>
+            <div class="signup-benefit">
+              <div class="signup-benefit-icon">&#128176;</div>
+              <div>
+                <h4>No Long-Term Contract</h4>
+                <p>Month-to-month plans available. Cancel anytime with no penalties.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="signup-form-card">
+          <h3>Create Your Account</h3>
+          <form id="signup-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="firstName" required placeholder="John">
+              </div>
+              <div class="form-group">
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="lastName" required placeholder="Smith">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="company">Company Name</label>
+              <input type="text" id="company" name="company" required placeholder="Smith Jewelers">
+            </div>
+            <div class="form-group">
+              <label for="email">Business Email</label>
+              <input type="email" id="email" name="email" required placeholder="john@smithjewelers.com">
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="(555) 123-4567">
+            </div>
+            <div class="form-group">
+              <label for="business-type">Business Type</label>
+              <select id="business-type" name="businessType" required>
+                <option value="" disabled selected>Select your business type</option>
+                <option value="retailer">Jewelry Retailer</option>
+                <option value="wholesaler">Wholesaler / Dealer</option>
+                <option value="diamond-dealer">Diamond Dealer</option>
+                <option value="watch-dealer">Watch Dealer</option>
+                <option value="manufacturer">Manufacturer</option>
+                <option value="pawn">Pawn / Estate</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="plan">Interested Plan</label>
+              <select id="plan" name="plan">
+                <option value="" disabled selected>Select a plan (optional)</option>
+                <option value="essentials">Essentials — $149/mo</option>
+                <option value="professional">Professional — $292/mo</option>
+                <option value="enterprise">Enterprise — $416/mo</option>
+                <option value="unsure">Not sure yet</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Anything else we should know?</label>
+              <textarea id="message" name="message" placeholder="Tell us about your business needs..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Start Free Trial</button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo">Jewel<span>Trak</span></a>
+          <p>Cloud-based software built exclusively for the diamond, jewelry, and watch industry.</p>
+        </div>
+        <div>
+          <h4>Product</h4>
+          <div class="footer-links">
+            <a href="index.html#features">Features</a>
+            <a href="pricing.html">Pricing</a>
+            <a href="signup.html">Free Trial</a>
+          </div>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <div class="footer-links">
+            <a href="about.html">About Us</a>
+            <a href="about.html#contact">Contact</a>
+          </div>
+        </div>
+        <div>
+          <h4>Access</h4>
+          <div class="footer-links">
+            <a href="https://cloud.jeweltrak.com" target="_blank">Client Login</a>
+            <a href="signup.html">Create Account</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 JewelTrak. All rights reserved.</span>
+        <span>
+          <a href="mailto:david@jeweltrak.com">david@jeweltrak.com</a>
+        </span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
