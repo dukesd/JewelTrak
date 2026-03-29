@@ -36,6 +36,12 @@ jeweltrak/
 - **Pricing**: Professional annual plan (~$292/mo) targets ~$3,500/yr. Monthly/annual toggle in `js/main.js` `prices` object
 - **Forms**: signup form submits client-side only (shows success message) — needs backend integration
 
+## Git & GitHub
+
+- **Remote**: https://github.com/dukesd/JewelTrak (public)
+- **Branch**: `master`
+- **Workflow**: Automatically commit and push after making file changes. Use descriptive commit messages.
+
 ## Contact Info (owner)
 
 - Email: david@jeweltrak.com
